@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>医学生 - 我们的标题！</title>
+    <meta name="keywords" content="达拓斯,医学生,医学生APP,医学教育,医学教育APP,医学资料,医学讲座,医学视频,医学资讯,病例讨论,医学下载" />
+    <meta name="description" content="医学生是一款为医学专业学生提供专业医学教育的学习平台。最新前沿的医学文章、丰富的医学视频，浓厚的医学讨论氛围，为医学生提供全方位的学习平台。在这里，助你成为更优秀的医学生。" />
+    <link rel="stylesheet" href="css/common1.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?30b9ca0f7d18d7444820fdd50b5f8057";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+
+<body>
+<div class="content">
+    <header>
+        <nav class="inner">
+            <a class="logo fl" href="javascript:void(0)">医学生</a>
+            <ul class="nav fr">
+                <li class="posr">
+                    <a class="attention" href="javascript:void(0)">关注</a>
+                    <div class="arrow posa"></div>
+                    <div class="attention-qrcode posa">
+                        <div class="qrcode qrcode-weibo">
+                            <img src="http://img.yishengzhan.cn/www/qrcode-weibo-yxj.png">
+                            <a href="http://weibo.com/u/2780297340?topnav=1&wvr=6&topsug=1">微博：@医学界</a>
+                        </div>
+                        <div class="qrcode qrcode-wechat last">
+                            <img src="http://img.yishengzhan.cn/www/qrcode-wexin-yxj.jpg">
+                            <a href="javacript:void(0)">微信：@医学界</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="head-banner">
+            <img  src="./imgs/banner.png" alt="">
+        </div>
+        <article class="platform-panel">
+            <div class="platform-inner">
+                <div class="platform-item">
+                    <img class="platform-icon platform-phone" src="./imgs/phone.png" alt="">
+                    <div class="platform-btn app-plat">下载APP</div>
+                    <div class="app-download">
+                        <img src="./imgs/qrcode-download.png" alt="">
+                        <div>安卓、iOS扫二维码下载</div>
+                    </div>
+                </div>
+                <div class="platform-item" src="./imgs/pc.png">
+                    <img class="platform-icon platform-pc" src="./imgs/pc.png" alt="">
+                    <a href="http://web.yishengzhan.cn/" class="pcweb-plat-a">
+                        <div class="platform-btn pcweb-plat">用电脑看讲座</div>
+                    </a>
+                    <div class="pcweb-tip">
+                        <div>电脑网页版，看讲</div>
+                        <div>座更大屏、更清晰</div>
+                    </div>
+                </div>
+                <div class="platform-item">
+                    <img class="platform-icon platform-pc" src="./imgs/wechat.png" alt="">
+                    <div class="platform-btn wechat-plat">关注微信公众号</div>
+                    <div class="wecaht-qr">
+                        <img src="./imgs/qrcode_wechat.jpg" alt="">
+                        <div>用微信就可以看讲座</div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div class="platforms-foot">
+            <div class="foot-inner">
+                <div class="pc-client">
+                    <a href="http://livefile.yxj.org.cn/ysz_pc.exe">
+                        <div class="text">医学生客户端下载</div>
+                    </a>
+                    <div class="icon">
+                        <img src="./imgs/down.png" alt="">
+                    </div>
+                    <div class="pcclient-tip">
+                        <div>安装PC端软件，轻松进行直播</div>
+                        <div>间视频直播，与观众实时互动</div>
+                    </div>
+                </div>
+                <div class="open-platform">
+                    <a href="http://op.yishengzhan.cn/">
+                        <div class="text">医学生开放平台入口</div>
+                    </a>
+                    <div class="icon">
+                        <img src="./imgs/right.png" alt="">
+                    </div>
+                    <div class="openplat-tip">
+                        <div>电脑网站平台，轻松进行人员</div>
+                        <div>管理，统计医学生学习数据。</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div class="plats-foot">
+    </section>
+
+    <section class="intro intro1 bk-white">
+
+        <div class="inner ovh">
+
+            <div class="fl">
+
+                <h1>头条资讯</h1>
+
+                <h2>— 及时，有深度</h2>
+
+                <h3>医学新闻、会议、政策，尽在你手中</h3>
+
+            </div>
+
+            <img class="fr" src="http://img.yishengzhan.cn/www/intro1.png">
+
+        </div>
+		
+    </section>
+
+
+
+    <section class="intro intro2 bk-red">
+
+        <div class="inner ovh">
+
+            <div class="arrow"></div>
+
+            <img class="img-left" src="http://img.yishengzhan.cn/www/intro2-1.png">
+
+            <img class="img-right" src="http://img.yishengzhan.cn/www/intro2-2.png">
+
+            <div class="fr">
+
+                <h1>医学知识 </h1>
+
+                <h2>— 精准，个性化</h2>
+
+                <h3>关注频道后  让医学知识主动找到你</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="intro intro3 bk-white">
+
+        <div class="inner ovh">
+
+            <div class="fl">
+
+                <h1>在线讲座</h1>
+
+                <h2> — 专业，够权威</h2>
+
+                <h3>足不出户  <em>超过500场</em>专家讲座随心听</h3>
+
+            </div>
+
+            <img src="http://img.yishengzhan.cn/www/intro3.png"/>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="intro intro4 bk-red">
+
+        <div class="inner">
+
+            <div class="arrow"></div>
+
+            <img src="http://img.yishengzhan.cn/www/intro4.png">
+
+            <h1>医学视频 <em>— 精选，更精彩</em></h1>
+
+            <h3>错过直播没关系，海量视频等你看</h3>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="intro intro5 bk-white">
+        <div class="inner ovh">
+            <ul class="downloads ovh">
+                <li class="download">
+                    <a class="download-apple" href="https://itunes.apple.com/us/app/yi-sheng-zhan-yi-sheng-xue/id1005423273?l=zh&ls=1&mt=8"></a>
+                    <h2>iPhone版</h2>
+                </li>
+                <li class="download">
+                    <a class="download-android" href="http://www.yishengzhan.cn/download"></a>
+                    <h2>Android版</h2>
+                </li>
+                <li class="download last">
+                    <img src="http://img.yishengzhan.cn/www/qrcode-download.png">
+                    <h2>扫描二维码</h2>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="inner">
+            <ul class="footer-nav">
+                <li><a href="agreement.html">用户协议</a></li>
+                <li class="last">微信客服：yishengzhan2015</li>
+                <li class="charge"> <a href="charge.html">医币充值</a></li>
+            </ul>
+            <p>
+                Copyright © 2015    医学生传媒  All Rights Reserved<br/>
+                沪ICP备12014230号-1
+            </p>
+        </div>
+    </footer>
+</div>
+<script type="text/javascript" src="lib/jquery/1.11.1/jquery.min.js" charset="UTF-8"></script>
+<script type="text/javascript" src="js/index.js?date=20160629" charset="UTF-8"></script>
+</body>
+</html>
+

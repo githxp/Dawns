@@ -1,0 +1,289 @@
+body {
+	margin: 0;
+	min-width: 1000px;
+}
+/*.attention:hover:after {
+  visibility: visible;
+}
+.att-content {
+	position: absolute;
+	overflow: hidden;
+	height: 0px;
+	top: 80px;
+	right: 0px;
+	width: 350px;
+  background: #fff;
+  background: #fff;
+  -webkit-box-shadow:0 0 15px rgba(215, 215, 215, .5);
+  -moz-box-shadow:0 0 15px rgba(215, 215, 215, .5);
+  box-shadow:0 0 15px rgba(215, 215, 215, .5);
+}
+
+.attention:after {
+  visibility: hidden;
+  content:"";
+  position: absolute;
+  right: 40%;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 13px solid #fff;
+	z-index: 100;
+}*/
+
+.att-content > div {
+	float: left;
+	width: 50%;
+}
+.att-content .qr-code > img{
+	display: block;
+	width: 60%;
+	margin: 30px auto 0 auto;
+}
+.att-content .icon-img{
+	height: 25px;
+	line-height: 25px;
+	font-size: 13px;
+	color: #666;
+	width: 90%;
+	margin: 10px auto;
+}
+.att-content .icon-img > img{
+	display: block;
+	float: left;
+	height: 25px;
+	margin: 0 10px 20px 10px;
+}
+
+.ysz-icon {
+	display: block;
+	float: left;
+	height: 50px;
+	margin-top: 15px;
+}
+
+.ysz-name {
+	float: left;
+	color: #fff;
+	line-height: 85px;
+	margin-top: 15px;
+	font-size: 14px;
+}
+
+.att-name {
+	float: right;
+	color: #fff;
+	height: 80px;
+	line-height: 80px;
+}
+
+.att-icon {
+	float: right;
+	height: 20px;
+	margin: 30px 10px 0 0;
+}*/
+
+.head-banner {
+	width: 100%;
+}
+.head-banner img {
+	display: block;
+	width: 100%;
+}
+
+.platform-panel {
+	background: #fff;
+}
+.platform-inner {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 70px 0 60px 0;
+	height: 250px;
+}
+
+.platform-item {
+	float: left;
+	width: 33.33333333%;
+	position: relative;
+	height: 235px;
+	overflow: visible;
+}
+
+.app-download,
+.wecaht-qr {
+	position: absolute;
+	width: 240px;
+	top: 250px;
+	left: 50%;
+	margin-left: -120px;
+  -webkit-box-shadow:0 0 15px rgba(215, 215, 215, .5);
+  -moz-box-shadow:0 0 15px rgba(215, 215, 215, .5);
+  box-shadow:0 0 15px rgba(215, 215, 215, .5);
+	border-radius: 10px;
+	z-index: 100;
+	background: #fff;
+	height: 0;
+	overflow: hidden;
+}
+.app-plat:hover + .app-download,
+.wechat-plat:hover + .wecaht-qr {
+	height: 250px;
+	transition: height 0.7s;
+	-moz-transition: height 0.7s;	/* Firefox 4 */
+	-webkit-transition: height 0.7s;	/* Safari 和 Chrome */
+	-o-transition: height 0.7s;	/* Opera */
+}
+.app-download >img,
+.wecaht-qr > img {
+	display: block;
+	width: 70%;
+	margin: 30px auto 10px auto;
+}
+
+.app-download div,
+.wecaht-qr div {
+	text-align: center;
+	font-size: 20px;
+}
+.pcweb-tip {
+	position: absolute;
+	width: 240px;
+	top: 250px;
+	left: 50%;
+	margin-left: -120px;
+  -webkit-box-shadow:0 0 15px rgba(215, 215, 215, .5);
+  -moz-box-shadow:0 0 15px rgba(215, 215, 215, .5);
+  box-shadow:0 0 15px rgba(215, 215, 215, .5);
+	border-radius: 10px;
+	z-index: 100;
+	background: #fff;
+	font-size: 20px;
+	text-align: center;
+	color: #333;
+	height: 0;
+	overflow: hidden;
+}
+.pcweb-tip div:first-child {
+	margin-top: 10px;
+}
+.pcweb-plat-a:hover + .pcweb-tip {
+	height: 80px;
+	transition: height 0.4s;
+	-moz-transition: height 0.4s;	/* Firefox 4 */
+	-webkit-transition: height 0.4s;	/* Safari 和 Chrome */
+	-o-transition: height 0.4s;	/* Opera */
+}
+
+.platform-icon {
+	display: block;
+	width: 40%;
+	margin: 0 auto;
+}
+
+.platform-btn {
+	width: 220px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 30px;
+	color: #fff;
+	margin-top: 40px;
+	background: #f15f62;
+	font-size: 22px;
+	cursor: pointer;
+}
+.platforms-foot {
+	background: #f5f5f5;
+	height: 230px;
+}
+.foot-inner {
+	width: 900px;
+	margin: 0 auto;
+	overflow: visible;
+}
+.pc-client {
+	float: left;
+	width: 300px;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	color: #f15f62;
+	border: 1px solid #f15f62;
+	border-radius: 8px;
+	font-size: 20px;
+	overflow: visible;
+	cursor: pointer;
+	position: relative;
+	margin: 80px auto 150px auto;
+}
+.pc-client > div,
+.open-platform > div{
+	float: left;
+}
+.pc-client > a,
+.open-platform > a{
+	float: left;
+	color: #d93639;
+	width: 80%;
+	font-size: 20px;
+}
+.pc-client > .icon,
+.open-platform > .icon{
+	width: 20%;
+}
+.pc-client > .icon > img,
+.open-platform > .icon > img{
+	display: block;
+	width: 24px;
+	margin-top: 18px;
+}
+.open-platform {
+	float: right;
+	width: 300px;
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	color: #f15f62;
+	border: 1px solid #f15f62;
+	border-radius: 8px;
+	font-size: 20px;
+	overflow: visible;
+	cursor: pointer;
+	position: relative;
+	margin: 80px auto 150px auto;
+}
+.pc-client:hover .pcclient-tip,
+.open-platform:hover .openplat-tip {
+	height: 80px;
+	transition: height 0.4s;
+	-moz-transition: height 0.4s;	/* Firefox 4 */
+	-webkit-transition: height 0.4s;	/* Safari 和 Chrome */
+	-o-transition: height 0.4s;	/* Opera */
+}
+.pcclient-tip,
+.openplat-tip {
+	position: absolute;
+	width: 340px;
+	top: 80px;
+	left: 50%;
+	margin-left: -170px;
+  -webkit-box-shadow:0 0 15px rgba(215, 215, 215, .5);
+  -moz-box-shadow:0 0 15px rgba(215, 215, 215, .5);
+  box-shadow:0 0 15px rgba(215, 215, 215, .5);
+	border-radius: 10px;
+	z-index: 100;
+	background: #fff;
+	font-size: 20px;
+	text-align: center;
+	color: #333;
+	height: 0;
+	overflow: hidden;
+	line-height: 25px;
+}
+.pcclient-tip div:first-child,
+.openplat-tip div:first-child {
+	margin-top: 15px;
+}
