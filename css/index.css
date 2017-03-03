@@ -1,7 +1,7 @@
 /*医学生首页*/
 
 header {
-    background-color: #cc3336;
+    background-color: #4cb9b4;
     height: 80px;
 }
 
@@ -9,7 +9,7 @@ header nav {
 }
 
 header nav .logo {
-    background: url("http://img.yishengzhan.cn/www/icon-logo.png") no-repeat;
+    background: url("../imgs/icon_logo.png") no-repeat;
     background-position: 0 center;
     padding-left: 60px;
     height: 80px;
@@ -46,7 +46,7 @@ header nav ul.nav li a {
 }
 
 header nav ul.nav li a:hover {
-    background-color: #d93639;
+    background-color: #54ccc7;
 }
 
 header nav ul.nav li a.attention {
@@ -115,86 +115,6 @@ header nav ul.nav li .attention-qrcode .qrcode-wechat a {
     background: url("http://img.yishengzhan.cn/www/icon-wechat.png") no-repeat;
 }
 
-section.banner {
-    background: url("http://img.yishengzhan.cn/www/bk-banner.png") center;
-    padding-top: 20px;
-}
-
-section.banner .inner {
-/*    width: 848px;*/
-    width: 1300px;
-}
-
-section.banner .book {
-    background: url("http://img.yishengzhan.cn/www/bk-book.png") no-repeat;
-    padding: 10px 15px;
-    height: 620px;
-}
-
-section.banner .book .page {
-    width: 424px;
-}
-
-section.banner .book .page-left {
-    margin-left: 25px;
-}
-
-section.banner .book .page-left img {
-    width: 180px;
-    display: block;
-    margin: 60px auto 25px auto;
-}
-
-section.banner .book .page p.download {
-    text-align: center;
-    font-size: 16px;
-    margin-bottom: 30px;
-}
-
-section.banner .book .page p.wisdom {
-    font-size: 22px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-section.banner .book .page p.speaker {
-    font-size: 14px;
-    text-align: right;
-    margin-right: 38px;
-}
-
-section.banner .book .page-right {
-    width: 395px;
-}
-
-section.banner .book .page-right img {
-    width: 100px;
-    display: block;
-    margin: 70px auto 25px auto;
-}
-
-section.banner .book .page h1 {
-    font-size: 40px;
-    text-align: center;
-}
-
-section.banner .book .page h2 {
-    font-size: 33px;
-    text-align: center;
-    margin-bottom: 90px;
-}
-
-section.banner .book .page .button {
-    display: block;
-    margin: 0 auto;
-    letter-spacing: 0;
-    padding: 33px 55px 10px 44px;
-    width: 235px;
-    height: 65px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-}
-
 .button-green {
     border: 1px solid #53800a;
     background-color: #6fa617;
@@ -212,18 +132,6 @@ section.banner .book .page .button {
 }
 .button-gray:hover {
     color: #fff;
-}
-
-section.banner .book .page .button.button-apple {
-    background-image: url("http://img.yishengzhan.cn/www/btn-apple.png");
-    background-repeat: no-repeat;
-    background-position: 35px;
-}
-
-section.banner .book .page .button.button-android {
-    background-image: url("http://img.yishengzhan.cn/www/btn-android.png");
-    background-repeat: no-repeat;
-    background-position: 35px;
 }
 
 section.intro .arrow {
@@ -272,7 +180,7 @@ section.intro1 .fl {
 }
 
 section.intro1 h1 {
-    color: #d63c3e;
+    color: #4cb9b4;
     background: url("http://img.yishengzhan.cn/www/icon-art.png") no-repeat 0 center;
 }
 
@@ -356,7 +264,7 @@ section.intro3 .fl {
 }
 
 section.intro3 h1 {
-    color: #d63c3e;
+    color: #4cb9b4;
     background: url("http://img.yishengzhan.cn/www/icon-live.png") no-repeat 0 center;
 }
 
@@ -379,10 +287,10 @@ section.intro3 img.animate {
 }
 
 section.intro4 {
-    background: -webkit-linear-gradient(left, #d9262a , #e6778e);
-    background: -o-linear-gradient(right, #d9262a, #e6778e);
-    background: -moz-linear-gradient(right, #d9262a, #e6778e);
-    background: linear-gradient(to right, #d9262a , #e6778e);
+    background: -webkit-linear-gradient(left, #4cb9b4 , #54ccc7);
+    background: -o-linear-gradient(right, #4cb9b4, #54ccc7);
+    background: -moz-linear-gradient(right, #4cb9b4, #54ccc7);
+    background: linear-gradient(to right, #4cb9b4 , #54ccc7);
 }
 
 section.intro4 .inner {
@@ -473,21 +381,21 @@ section.intro5 .downloads .download a {
 }
 
 section.intro5 .downloads .download a:hover {
-    border-color: #d93639;
+    border-color: #4cb9b4;
 }
 
 section.intro5 .downloads .download a.download-apple {
     background: url("http://img.yishengzhan.cn/www/icon-apple-gray.png") no-repeat center;
 }
 section.intro5 .downloads .download a.download-apple:hover {
-    background: url("http://img.yishengzhan.cn/www/icon-apple-red.png") no-repeat center;
+    background: url("../imgs/download-ios.png") no-repeat center;
 }
 
 section.intro5 .downloads .download a.download-android {
     background: url("http://img.yishengzhan.cn/www/icon-android-gray.png") no-repeat center;
 }
 section.intro5 .downloads .download a.download-android:hover {
-    background: url("http://img.yishengzhan.cn/www/icon-android-red.png") no-repeat center;
+    background: url("../imgs/download-android.png") no-repeat center;
 }
 
 section.intro5 h2 {
@@ -572,7 +480,7 @@ footer ul.footer-nav li a {
 
 footer p {
     font-size: 14px;
-    background: url("http://img.yishengzhan.cn/www/logo-yxj.png") no-repeat 0;
+    background: url("../imgs/logo-footer.png") no-repeat 0;
     width: 330px;
     padding-left: 179px;
     margin: 0 auto;
@@ -692,7 +600,7 @@ footer p {
 .pc-client a {
 	color: #f15f62;
 }
-.pc-client > .text{
+.pc-client > .intro.text{
 	width: 80%;
 	font-size: 20px;
     float: left;

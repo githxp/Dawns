@@ -226,7 +226,7 @@ body {
 .pc-client > a,
 .open-platform > a{
 	float: left;
-	color: #4cb9b4;
+	color: #d93639;
 	width: 80%;
 	font-size: 20px;
 }
