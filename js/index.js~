@@ -31,6 +31,7 @@ $(document).ready(function() {
         } else if(offset > 2400) {
             $('section.intro4').find('img').addClass('animate');
         }
+        alert(document.documentElement.scrollTop.scrollTop()+" px");
     }
 
     $('.charge_list li').click(function(){
