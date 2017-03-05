@@ -2,36 +2,6 @@ body {
 	margin: 0;
 	min-width: 1000px;
 }
-/*.attention:hover:after {
-  visibility: visible;
-}
-.att-content {
-	position: absolute;
-	overflow: hidden;
-	height: 0px;
-	top: 80px;
-	right: 0px;
-	width: 350px;
-  background: #fff;
-  background: #fff;
-  -webkit-box-shadow:0 0 15px rgba(215, 215, 215, .5);
-  -moz-box-shadow:0 0 15px rgba(215, 215, 215, .5);
-  box-shadow:0 0 15px rgba(215, 215, 215, .5);
-}
-
-.attention:after {
-  visibility: hidden;
-  content:"";
-  position: absolute;
-  right: 40%;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 13px solid #fff;
-	z-index: 100;
-}*/
 
 .att-content > div {
 	float: left;
@@ -118,15 +88,21 @@ body {
 	top: 250px;
 	left: 50%;
 	margin-left: -120px;
-  -webkit-box-shadow:0 0 15px rgba(215, 215, 215, .5);
-  -moz-box-shadow:0 0 15px rgba(215, 215, 215, .5);
-  box-shadow:0 0 15px rgba(215, 215, 215, .5);
+   -webkit-box-shadow:0 0 15px rgba(215, 215, 215, .5);
+   -moz-box-shadow:0 0 15px rgba(215, 215, 215, .5);
+   box-shadow:0 0 15px rgba(215, 215, 215, .5);
 	border-radius: 10px;
 	z-index: 100;
 	background: #fff;
 	height: 0;
 	overflow: hidden;
 }
+
+.app-plat a:link {color:#ffffff;}   
+.app-plat a:visited {color:#ffffff;}   
+.app-plat a:hover {color:#ffffff;}   
+.app-plat a:active {color:#ffffff;}   
+
 .app-plat:hover + .app-download,
 .wechat-plat:hover + .wecaht-qr {
 	height: 250px;
@@ -165,9 +141,11 @@ body {
 	height: 0;
 	overflow: hidden;
 }
+
 .pcweb-tip div:first-child {
 	margin-top: 10px;
 }
+
 .pcweb-plat-a:hover + .pcweb-tip {
 	height: 80px;
 	transition: height 0.4s;
@@ -195,15 +173,18 @@ body {
 	font-size: 22px;
 	cursor: pointer;
 }
+
 .platforms-foot {
 	background: #f5f5f5;
 	height: 230px;
 }
+
 .foot-inner {
 	width: 900px;
 	margin: 0 auto;
 	overflow: visible;
 }
+
 .pc-client {
 	float: left;
 	width: 300px;
@@ -219,23 +200,19 @@ body {
 	position: relative;
 	margin: 80px auto 150px auto;
 }
-.pc-client > div,
-.open-platform > div{
+.pc-client > div,.open-platform > div{
 	float: left;
 }
-.pc-client > a,
-.open-platform > a{
+.pc-client > a,.open-platform > a{
 	float: left;
-	color: #d93639;
+	color: #4cb9b4;
 	width: 80%;
 	font-size: 20px;
 }
-.pc-client > .icon,
-.open-platform > .icon{
+.pc-client > .icon,.open-platform > .icon{
 	width: 20%;
 }
-.pc-client > .icon > img,
-.open-platform > .icon > img{
+.pc-client > .icon > img,.open-platform > .icon > img{
 	display: block;
 	width: 24px;
 	margin-top: 18px;
@@ -255,16 +232,15 @@ body {
 	position: relative;
 	margin: 80px auto 150px auto;
 }
-.pc-client:hover .pcclient-tip,
-.open-platform:hover .openplat-tip {
+
+.pc-client:hover .pcclient-tip,.open-platform:hover .openplat-tip {
 	height: 80px;
 	transition: height 0.4s;
 	-moz-transition: height 0.4s;	/* Firefox 4 */
 	-webkit-transition: height 0.4s;	/* Safari 和 Chrome */
 	-o-transition: height 0.4s;	/* Opera */
 }
-.pcclient-tip,
-.openplat-tip {
+.pcclient-tip,.openplat-tip {
 	position: absolute;
 	width: 340px;
 	top: 80px;
@@ -283,7 +259,7 @@ body {
 	overflow: hidden;
 	line-height: 25px;
 }
-.pcclient-tip div:first-child,
-.openplat-tip div:first-child {
+
+.pcclient-tip div:first-child,.openplat-tip div:first-child {
 	margin-top: 15px;
 }

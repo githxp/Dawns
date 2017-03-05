@@ -5,7 +5,7 @@
     <title>医学生——专属医学生的学习社交平台</title>
     <meta name="keywords" content="医学生,医学,医学生app,医学院,医学视频" />
     <meta name="description" content="为临床、中医、护理、药学、口腔、影像等医学专业医学生汇集了海量优质学习资源，包括上千部医学视频，上万道医学题库，各科目学习笔记，离线资源免费下载，名校师生答疑解惑……更多贴心功能欢迎下载体验！健康所寄，性命相托；学医不易，与您一起！" />
-    <link rel="stylesheet" href="css/common1.css" />
+    <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     
@@ -52,10 +52,10 @@
             <div class="platform-inner">
                 <div class="platform-item">
                     <img class="platform-icon platform-phone" src="./imgs/phone.png" alt="">
-                    <div class="platform-btn app-plat">下载APP</div>
+                    <div class="platform-btn app-plat"><a id="downloadapp" href="./医学生-v1.0.21-201702201400.apk">下载APP</a></div>
                     <div class="app-download">
                         <img src="./imgs/download.png" alt="">
-                        <div>安卓、iOS扫二维码下载</div>
+                        <div>扫二维码下载</div>
                     </div>
                 </div>
                 <div class="platform-item" src="./imgs/pc.png">
@@ -175,8 +175,7 @@
     <footer>
         <div class="inner">
             <ul class="footer-nav">
-                <li><a href="agreement.html">用户协议</a></li>
-                <li class="last">微信客服：yishengzhan2015</li>
+                <li class="last">微信客服：yxktls</li>
             </ul>
             <p>
                 Copyright © 2015    医学生传媒  All Rights Reserved<br/>
