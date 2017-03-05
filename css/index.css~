@@ -32,7 +32,7 @@ header nav ul.nav li a {
 	display: inline-block;
    line-height: 80px;
    color: #ffffff;
-   font-size: 18px;
+   font-size: 30px;
    margin: 0 15px;
    padding: 0 37px 0 70px;
 }
