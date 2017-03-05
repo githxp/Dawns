@@ -109,35 +109,7 @@ header nav ul.nav li .attention-qrcode .qrcode-wechat a {
     background: url("http://img.yishengzhan.cn/www/icon-wechat.png") no-repeat;
 }
 
-/*.button-green {
-    border: 1px solid #53800a;
-    background-color: #6fa617;
-    color: #fff;
-}
-.button-green:hover {
-    background-color: #6fa617;
-    color: #fff;
-}
 
-.button-gray {
-    border:1px solid #666666;
-    background-color: #8e8e8e;
-    color: #fff;
-}
-.button-gray:hover {
-    color: #fff;
-}
-*/
-
-/*
-section.intro .arrow {
-    position: absolute;
-    width: 0;
-    height: 0;
-    border: 20px solid transparent;
-    border-top-color: #ffffff;
-}
-*/
 section.intro .animate {
     -moz-transition: 0.8s ease-in-out;
     -webkit-transition: 0.8s ease-in-out;
