@@ -12,21 +12,15 @@ header nav .logo {
     background: url("../imgs/icon_logo.png") no-repeat;
     background-position: 0 center;
     padding-left: 60px;
-    height: 80px;
+    height: 90px;
     line-height: 96px;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 30px;
     letter-spacing: 2px;
     font-weight: normal;
     margin-right: 20px;
 }
 
-header nav span {
-    height: 64px;
-    line-height: 64px;
-    color: #e6a1a2;
-    font-size: 24px;
-}
 
 header nav ul.nav {
     width: 200px;
@@ -36,11 +30,11 @@ header nav ul.nav li {
     display: inline-block;
 }
 
-header nav ul.nav li a {
+ header nav ul.nav li a {
     display: inline-block;
     line-height: 80px;
     color: #ffffff;
-    font-size: 18px;
+    font-size: 30px;
     margin: 0 15px;
     padding: 0 37px 0 70px;
 }
@@ -115,7 +109,7 @@ header nav ul.nav li .attention-qrcode .qrcode-wechat a {
     background: url("http://img.yishengzhan.cn/www/icon-wechat.png") no-repeat;
 }
 
-.button-green {
+/*.button-green {
     border: 1px solid #53800a;
     background-color: #6fa617;
     color: #fff;
@@ -133,7 +127,9 @@ header nav ul.nav li .attention-qrcode .qrcode-wechat a {
 .button-gray:hover {
     color: #fff;
 }
+*/
 
+/*
 section.intro .arrow {
     position: absolute;
     width: 0;
@@ -141,7 +137,7 @@ section.intro .arrow {
     border: 20px solid transparent;
     border-top-color: #ffffff;
 }
-
+*/
 section.intro .animate {
     -moz-transition: 0.8s ease-in-out;
     -webkit-transition: 0.8s ease-in-out;
@@ -164,19 +160,15 @@ section.intro h2 {
     font-size: 48px;
     line-height: 2;
 }
+n
 
-section.intro h3 {
-    font-size: 28px;
-    color: #999999;
-    line-height: 2;
-}
 
 section.intro1 {
     padding: 30px 0;
 }
 
 section.intro1 .fl {
-    margin: 215px 0;
+    margin: 245px 0;
 }
 
 section.intro1 h1 {
@@ -191,6 +183,7 @@ section.intro1 img {
     opacity: 0;
     filter: alpha(opacity=0);
 }
+
 
 section.intro1 img.animate {
     right: 0;
@@ -210,11 +203,12 @@ section.intro2 .inner{
     position: relative;
 }
 
+/*
 section.intro2 .arrow {
     top: 0px;
     left: 265px;
 }
-
+*/
 section.intro2 img {
     position: absolute;
     opacity: 0;
@@ -251,9 +245,7 @@ section.intro2 h2 {
     color: #ffffff;
 }
 
-section.intro2 h3 {
-    color: #e0e0e0;
-}
+
 
 section.intro3 {
     padding: 30px 0;
@@ -268,9 +260,6 @@ section.intro3 h1 {
     background: url("http://img.yishengzhan.cn/www/icon-live.png") no-repeat 0 center;
 }
 
-section.intro3 h3 em {
-    color: #d94144;
-}
 
 section.intro3 img {
     position: absolute;
@@ -437,16 +426,6 @@ section.dialog h3 {
     font-size: 20px;
 }
 
-section.dialog .button {
-	width: 100px;
-    border: 1px solid #cccccc;
-    color: #0089c0;
-    text-align: center;
-    display: block;
-    line-height: 2;
-    margin: 0 auto;
-    font-size: 18px;
-}
 
 footer {
     color: #666666;
@@ -473,11 +452,11 @@ footer ul.footer-nav li:last-child,
 footer ul.footer-nav li.last {
     margin-right: 0;
 }
-
+/*
 footer ul.footer-nav li a {
     color: #666666;
 }
-
+*/
 footer p {
     font-size: 14px;
     background: url("../imgs/logo-footer.png") no-repeat 0;
@@ -535,89 +514,4 @@ footer p {
 	    font-size: 36px;
 	}
 
-}
-
-.go-web {
-    float: left;
-    width: 400px;
-    margin-left: 50px;
-    padding-top: 175px;
-    position: relative;
-}
-
-.go-web a {
-    display: block;
-    width: 300px;
-    height: 75px;
-    line-height: 70px;
-    margin: 0 auto;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 10px;
-    font-size: 45px;
-    text-align: center;
-    font-weight: normal;
-}
-
-.go-web div {
-    margin-top: 30px;
-    text-align: center;
-    color: #fff;
-    font-size: 23px;
-}
-
-.go-web img {
-    position: absolute;
-    width: 40px;
-    top: 225px;
-    left: 310px;
-    transform: rotate(-30deg);
-    -ms-transform: rotate(-30deg);		/* IE 9 */
-    -webkit-transform: rotate(-30deg);	/* Safari and Chrome */
-    -o-transform: rotate(-30deg);		/* Opera */
-}
-
-.pc-client-inner {
-    width: 900px;
-    margin: 0 auto;
-    overflow: hidden;
-    margin-bottom: 20px;
-}
-.pc-client {
-	float: left;
-	width: 300px;
-	text-align: center;
-	height: 60px;
-	line-height: 60px;
-	color: #f15f62;
-	border: 1px solid #f15f62;
-	border-radius: 8px;
-	font-size: 20px;
-	overflow: hidden;
-	cursor: pointer;
-}
-.pc-client a {
-	color: #f15f62;
-}
-.pc-client > .intro.text{
-	width: 80%;
-	font-size: 20px;
-    float: left;
-}
-.pc-client > .icon{
-	width: 20%;
-    float: right;
-}
-.pc-client > .icon > img{
-	display: block;
-	width: 24px;
-	margin-top: 18px;
-}
-.pc-info {
-    height: 60px;
-    line-height: 60px;
-    float: right;
-    font-size: 20px;
-	color: #f15f62;
 }
